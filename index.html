@@ -1,0 +1,1645 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Aumentar</title>
+		<meta name="description" content="" />
+		<meta name="Author" content="Aumentar [www.aumentar.com]" />
+		<link rel="icon" href="assets/images/icon/favicon-32x32.ico" type="image/x-icon"/>
+	
+		<!-- mobile settings -->
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+		<!-- WEB FONTS : use %7C instead of | (pipe) -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+
+		<!-- CORE CSS -->
+		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+		<!-- REVOLUTION SLIDER -->
+		<link href="assets/plugins/slider.revolution/css/extralayers.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/slider.revolution/css/settings.css" rel="stylesheet" type="text/css" />
+
+		<!-- THEME CSS -->
+		<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+
+		<!-- PAGE LEVEL SCRIPTS -->
+		<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/color_scheme/green.css" rel="stylesheet" type="text/css" id="color_scheme" />
+	</head>
+
+	<!--
+		AVAILABLE BODY CLASSES:
+		
+		smoothscroll 			= create a browser smooth scroll
+		enable-animation		= enable WOW animations
+
+		bg-grey					= grey background
+		grain-grey				= grey grain background
+		grain-blue				= blue grain background
+		grain-green				= green grain background
+		grain-blue				= blue grain background
+		grain-orange			= orange grain background
+		grain-yellow			= yellow grain background
+		
+		boxed 					= boxed layout
+		pattern1 ... patern11	= pattern background
+		menu-vertical-hide		= hidden, open on click
+		
+		BACKGROUND IMAGE [together with .boxed class]
+		data-background="assets/images/_smarty/boxed_background/1.jpg"
+	-->
+	<body class="smoothscroll enable-animation">
+
+		<!-- wrapper -->
+		<div id="wrapper">
+
+
+			<!-- 
+				AVAILABLE HEADER CLASSES
+
+				Default nav height: 96px
+				.header-md 		= 70px nav height
+				.header-sm 		= 60px nav height
+
+				.b-0 		= remove bottom border (only with transparent use)
+				.transparent	= transparent header
+				.translucent	= translucent header
+				.sticky			= sticky header
+				.static			= static header
+				.dark			= dark header
+				.bottom			= header on bottom
+				
+				shadow-before-1 = shadow 1 header top
+				shadow-after-1 	= shadow 1 header bottom
+				shadow-before-2 = shadow 2 header top
+				shadow-after-2 	= shadow 2 header bottom
+				shadow-before-3 = shadow 3 header top
+				shadow-after-3 	= shadow 3 header bottom
+
+				.clearfix		= required for mobile menu, do not remove!
+
+				Example Usage:  class="clearfix sticky header-sm transparent b-0"
+			-->
+			<div id="header" class="navbar-toggleable-md sticky bottom header-sm dark clearfix">
+
+				<!-- TOP NAV -->
+				<header id="topNav">
+					<div class="container">
+
+						<!-- Mobile Menu Button -->
+						<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+							<i class="fa fa-bars"></i>
+						</button>
+
+
+						<!-- Logo -->
+						<a class="logo float-left scrollTo" href="#top">
+							<img src="assets/images/icon/logo.png" alt="" />
+						</a>
+
+						<!-- 
+							Top Nav 
+							
+							AVAILABLE CLASSES:
+							submenu-dark = dark sub menu
+						-->
+						<div class="navbar-collapse collapse float-right nav-main-collapse submenu-dark">
+							<nav class="nav-main">
+
+								<!-- 
+									.nav-onepage
+									Required for onepage navigation links
+									
+									Add .external for an external link!
+								-->
+								<ul id="topMain" class="nav nav-pills nav-main nav-onepage">
+									<li class="active"><!-- HOME -->
+										<a href="#slider">
+											HOME
+										</a>
+									</li>
+									<li><!-- ABOUT -->
+										<a href="#about">
+											ABOUT
+										</a>
+									</li>									
+									<li><!-- FEATURES -->
+										<a href="#features">
+											FEATURES
+										</a>
+									</li>
+									<li><!-- PRODUCTS -->
+										<a href="#products">
+											PRODUCTS
+										</a>
+									</li>
+									<!--<li> TEAM 
+										<a href="#team">
+											TEAM
+										</a>
+									</li>-->
+									<li><!-- SERVICES -->
+										<a href="#services">
+											SERVICES
+										</a>
+									</li>
+									<!-- <li>PRICING 
+										<a href="#pricing">
+											PRICING
+										</a>
+									</li>-->
+									<!-- <li>TESTIMONIALS 
+										<a href="#testimonials">
+											TESTIMONIALS
+										</a>
+									</li>-->
+									<li><!-- Contact Us -->
+										<a href="#footer">
+											CONTACT US
+										</a>
+									</li>
+								</ul>
+
+							</nav>
+						</div>
+
+					</div>
+				</header>
+				<!-- /Top Nav -->
+
+			</div>
+
+
+
+
+
+			<!-- REVOLUTION SLIDER -->
+				<!-- SLIDER -->
+			<section id="slider" class="slider fullwidthbanner-container roundedcorners" >
+
+				<!--
+					Navigation Styles:
+					
+						data-navigationStyle="" theme default navigation
+						
+						data-navigationStyle="preview1"
+						data-navigationStyle="preview2"
+						data-navigationStyle="preview3"
+						data-navigationStyle="preview4"
+						
+					Bottom Shadows
+						data-shadow="1"
+						data-shadow="2"
+						data-shadow="3"
+						
+					Slider Height (do not use on fullscreen mode)
+						data-height="300"
+						data-height="350"
+						data-height="400"
+						data-height="450"
+						data-height="500"
+						data-height="550"
+						data-height="600"
+						data-height="650"
+						data-height="700"
+						data-height="750"
+						data-height="800"
+				-->
+				<div class="fullwidthbanner" data-height="600" data-shadow="0" data-navigationStyle="preview2">
+					<ul class="hide">
+						
+						<!-- SLIDE 
+						<li data-transition="fade" data-slotamount="1" data-masterspeed="1500" data-delay="10000" data-saveperformance="off" data-title="Slide 1">
+
+							<img src="abstract-abstraction-background-1044989.jpg" alt="video" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat">
+
+							<div class="tp-caption customin ltl tp-resizeme revo-slider-caps-text uppercase"
+								data-x="left" data-hoffset="0"
+								data-y="70"
+								data-customin="x:-200;y:0;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="400"
+								data-start="1000"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn">
+								<img src="desktop.png" alt="">
+							</div>
+
+							<div class="tp-caption large_bold_grey skewfromrightshort customout font-open-sans"
+								data-x="645"
+								data-y="70"
+								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="500"
+								data-start="800"
+								data-easing="Back.easeOut"
+								data-endspeed="500"
+								data-endeasing="Power4.easeIn"
+								data-captionhidden="off"
+								style="z-index: 4; font-weight:bold;">Smarty
+							</div>
+
+							<div class="tp-caption large_bold_grey skewfromleftshort customout font-open-sans"
+								data-x="645"
+								data-y="133"
+								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="300"
+								data-start="1100"
+								data-easing="Back.easeOut"
+								data-endspeed="500"
+								data-endeasing="Power4.easeIn"
+								data-captionhidden="off"
+								style="z-index: 7; font-weight:bold !important;">Multipurpose
+							</div>
+
+							<div class="tp-caption ltl customin customout small_light_white font-lato"
+								data-x="650"
+								data-y="235"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1.3;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="500"
+								data-start="1300"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="500"
+								data-endeasing="Power4.easeIn" style=" color: #333; font-size:20px; max-width: 550px; white-space: normal; text-shadow:none;">
+								Smarty Multipurpose Template, now offering you
+								over 600 html pages fully customizable + Admin + RTL!<br />
+								<strong>Lifetime free update!</strong>
+							</div>
+
+							
+							<div class="tp-caption large_bold_darkblue skewfromleftshort customout"
+								data-x="650" data-hoffset="-90"
+								data-y="370"
+								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="500"
+								data-start="1600"
+								data-easing="Back.easeOut"
+								data-endspeed="500"
+								data-endeasing="Power4.easeIn"
+								data-captionhidden="off"
+								style="z-index: 10; text-shadow:none;">600+
+							</div>
+
+							<div class="tp-caption medium_bg_darkblue skewfromleftshort customout"
+								data-x="650" data-hoffset="-90"
+								data-y="430"
+								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="500"
+								data-start="1650"
+								data-easing="Back.easeOut"
+								data-endspeed="500"
+								data-endeasing="Power4.easeIn"
+								data-captionhidden="off"
+								style="z-index: 11; text-shadow:none;">Html Pages
+							</div>
+
+							<div class="tp-caption medium_bold_red skewfromleftshort customout start font300"
+								data-x="800" data-hoffset="-90"
+								data-y="390"
+								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="500"
+								data-start="1850"
+								data-easing="Back.easeOut"
+								data-endspeed="500"
+								data-endeasing="Power4.easeIn"
+								data-captionhidden="off"
+								style="z-index: 13; text-shadow:none; font-weight:300;">+ RTL <strong>Support</strong>
+							</div>
+
+							<div class="tp-caption medium_bg_red skewfromleftshort customout"
+								data-x="800" data-hoffset="-90"
+								data-y="430"
+								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="500"
+								data-start="2300"
+								data-easing="Back.easeOut"
+								data-endspeed="500"
+								data-endeasing="Power4.easeIn"
+								data-captionhidden="off"
+								style="z-index: 21; text-shadow:none;">Admin Included
+							</div>
+
+						</li>
+						
+						 SLIDE-->  
+						
+						<li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" >
+
+							<img src="desktop.png" data-lazyload="O7MF5N0.jpg" alt="" data-bgfit="cover" data-bgposition="center bottom" data-bgrepeat="no-repeat" />
+
+							<div class="overlay dark-1"></div>
+
+							<div class="tp-caption customin ltl tp-resizeme text_white"
+								data-x="center"
+								data-y="155"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1000"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 10;">
+								<span class="fw-300"></span>
+							</div>
+
+							<div class="tp-caption customin ltl tp-resizeme large_bold_white"
+								data-x="center"
+								data-y="205"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1200"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 10;">
+								WELCOME TO AUMENTAR
+							</div>
+
+							<div class="tp-caption customin ltl tp-resizeme small_light_white font-lato"
+								data-x="center"
+								data-y="295"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1400"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 10; width: 100%; max-width: 750px; white-space: normal; text-align:center; font-size:20px;">
+								The all-in-one tool helps the users to know their customers in a better way and also enables the users to evaluate their quality and improve the deliverability.
+							</div>
+							<!--
+							<div class="tp-caption customin ltl tp-resizeme"
+								data-x="center"
+								data-y="383"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1550"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 10;">
+								
+									<span>Purchase Aumentar Now</span> 
+							
+							</div>
+							-->
+						</li>
+						
+						<!-- SLIDE  -->
+						<li data-transition="fade" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" >
+							<img src="assets/images/_smarty/1x1.png" data-lazyload="wood-3157395_1920.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" />
+
+							<div class="tp-caption lfr" 
+								data-x="left" data-hoffset="60"
+								data-y="85" 
+								data-speed="1500" 
+								data-start="500" 
+								data-easing="easeOutExpo" 
+								data-elementdelay="0.1" 
+								data-endelementdelay="0.1" 
+								data-endspeed="300" 
+								style="z-index: 2;">
+								<img src="assets/images/_smarty/1x1.png" data-lazyload="" alt="" />
+							</div>
+
+							<div class="tp-caption block_black sft" 
+								data-x="right" data-hoffset="-70"
+								data-y="137" 
+								data-speed="750" 
+								data-start="1100" 
+								data-easing="easeOutExpo" 
+								data-splitin="none" 
+								data-splitout="none" 
+								data-elementdelay="0.1" 
+								data-endelementdelay="0.1" 
+								data-endspeed="300" 
+								style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">Compatible
+							</div>
+
+							<div class="tp-caption block_black sfb" 
+								data-x="right" data-hoffset="-70" 
+								data-y="176" 
+								data-speed="750" 
+								data-start="1400" 
+								data-easing="easeOutExpo" 
+								data-splitin="none" 
+								data-splitout="none" 
+								data-elementdelay="0.1" 
+								data-endelementdelay="0.1" 
+								data-endspeed="300" 
+								style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">Integrated
+							</div>
+
+							<div class="tp-caption block_theme_color sft" 
+								data-x="right"  data-hoffset="-70"
+								data-y="239" 
+								data-speed="750" 
+								data-start="1700" 
+								data-easing="easeOutExpo" 
+								data-splitin="none" 
+								data-splitout="none" 
+								data-elementdelay="0.1" 
+								data-endelementdelay="0.1" 
+								data-endspeed="300" 
+								style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;">Handy
+							</div>
+
+							<div class="tp-caption block_theme_color sfb" 
+								data-x="right"  data-hoffset="-70"
+								data-y="278" 
+								data-speed="750" 
+								data-start="2000" 
+								data-easing="easeOutExpo" 
+								data-splitin="none" 
+								data-splitout="none" 
+								data-elementdelay="0.1" 
+								data-endelementdelay="0.1" 
+								data-endspeed="300" 
+								style="z-index: 6; max-width: auto; max-height: auto; white-space: nowrap;">and Robust
+							</div>
+
+							<div class="tp-caption block_black sft" 
+								data-x="right"  data-hoffset="-70"
+								data-y="340" 
+								data-speed="750" 
+								data-start="2300" 
+								data-easing="easeOutExpo" 
+								data-splitin="none" 
+								data-splitout="none" 
+								data-elementdelay="0.1" 
+								data-endelementdelay="0.1" 
+								data-endspeed="300" 
+								style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">technology for  your businesses.
+							</div>
+						</li>
+						
+						<!-- SLIDE  
+						<li data-transition="fade" data-slotamount="7" data-masterspeed="300" data-link="#" data-target="_blank" data-saveperformance="off">
+
+							<img src="desktop.png" data-lazyload="wood-1759566_1920.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" />
+
+							<div class="tp-caption lfb" 
+								data-x="right" data-hoffset="-70" 
+								data-y="120" 
+								data-speed="2000" 
+								data-start="500" 
+								data-easing="easeOutExpo" 
+								data-elementdelay="0.1" 
+								data-endelementdelay="0.1" 
+								data-endspeed="300" 
+								style="z-index: 2;">
+								<img src="assets/images/_smarty/1x1.png" alt="" data-lazyload="desktop.png">
+							</div>
+
+							<div class="tp-caption mediumlarge_light_white lfb tp-resizeme" 
+								data-x="left" data-hoffset="150"
+								data-y="183" 
+								data-speed="1000" 
+								data-start="1400" 
+								data-easing="easeOutExpo" 
+								data-splitin="none" 
+								data-splitout="none" 
+								data-elementdelay="0.1" 
+								data-endelementdelay="0.1" 
+								data-endspeed="300" 
+								style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">+ Amazing Layouts
+							</div>
+
+							<div class="tp-caption mediumlarge_light_white lft tp-resizeme" 
+								data-x="left" data-hoffset="70"
+								data-y="135" 
+								data-speed="1000" 
+								data-start="1200" 
+								data-easing="easeOutExpo" 
+								data-splitin="none" 
+								data-splitout="none" 
+								data-elementdelay="0.1" 
+								data-endelementdelay="0.1" 
+								data-endspeed="300" 
+								style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">+ Awesome  Sliders
+							</div>
+
+							<div class="tp-caption block_white sfl tp-resizeme" 
+								data-x="70" 
+								data-y="266" 
+								data-speed="750" 
+								data-start="1900" 
+								data-easing="easeOutExpo" 
+								data-splitin="none" 
+								data-splitout="none" 
+								data-elementdelay="0.1" 
+								data-endelementdelay="0.1" 
+								data-endspeed="300" 
+								style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;">100% Fully Responsive
+							</div>
+
+							<div class="tp-caption block_theme_color sfr tp-resizeme" 
+								data-x="120" 
+								data-y="310" 
+								data-speed="750" 
+								data-start="2200" 
+								data-easing="easeOutExpo" 
+								data-splitin="none" 
+								data-splitout="none" 
+								data-elementdelay="0.1" 
+								data-endelementdelay="0.1" 
+								data-endspeed="300" 
+								style="z-index: 6; max-width: auto; max-height: auto; white-space: nowrap;">And Simply A Joy To Use
+							</div>
+
+							<div class="tp-caption block_white sfb tp-resizeme" 
+								data-x="170" 
+								data-y="356" 
+								data-speed="750" 
+								data-start="2500" 
+								data-easing="easeOutExpo" 
+								data-splitin="none" 
+								data-splitout="none" 
+								data-elementdelay="0.1" 
+								data-endelementdelay="0.1" 
+								data-endspeed="300" 
+								style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">Why Not Buy Epona?
+							</div>
+						</li>
+						-->
+						<!-- SLIDE  
+						<li data-transition="random" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off">
+
+							<img src="assets/images/_smarty/1x1.png" data-lazyload="aumentar_slide1.jpg" alt="" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" />
+
+							<div class="tp-caption block_black sft" 
+								data-x="right" data-hoffset="-70"
+								data-y="137" 
+								data-speed="750" 
+								data-start="1100" 
+								data-easing="easeOutExpo" 
+								data-splitin="none" 
+								data-splitout="none" 
+								data-elementdelay="0.1" 
+								data-endelementdelay="0.1" 
+								data-endspeed="300" 
+								style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">Compatible
+							</div>
+
+							<div class="tp-caption block_black sfb" 
+								data-x="right" data-hoffset="-70" 
+								data-y="176" 
+								data-speed="750" 
+								data-start="1400" 
+								data-easing="easeOutExpo" 
+								data-splitin="none" 
+								data-splitout="none" 
+								data-elementdelay="0.1" 
+								data-endelementdelay="0.1" 
+								data-endspeed="300" 
+								style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">Integrated
+							</div>
+							
+							
+
+							<div class="tp-caption block_theme_color sft" 
+								data-x="right"  data-hoffset="-70"
+								data-y="239" 
+								data-speed="750" 
+								data-start="1700" 
+								data-easing="easeOutExpo" 
+								data-splitin="none" 
+								data-splitout="none" 
+								data-elementdelay="0.1" 
+								data-endelementdelay="0.1" 
+								data-endspeed="300" 
+								style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;">Handy
+							</div>
+
+							<div class="tp-caption block_theme_color sfb" 
+								data-x="right"  data-hoffset="-70"
+								data-y="278" 
+								data-speed="750" 
+								data-start="2000" 
+								data-easing="easeOutExpo" 
+								data-splitin="none" 
+								data-splitout="none" 
+								data-elementdelay="0.1" 
+								data-endelementdelay="0.1" 
+								data-endspeed="300" 
+								style="z-index: 6; max-width: auto; max-height: auto; white-space: nowrap;">and Robust
+							</div>
+
+							<div class="tp-caption block_black sft" 
+								data-x="right"  data-hoffset="-70"
+								data-y="340" 
+								data-speed="750" 
+								data-start="2300" 
+								data-easing="easeOutExpo" 
+								data-splitin="none" 
+								data-splitout="none" 
+								data-elementdelay="0.1" 
+								data-endelementdelay="0.1" 
+								data-endspeed="300" 
+								style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">technology for  your businesses.
+							</div>
+
+							
+
+						</li>
+						-->
+						<!-- SLIDE 
+						<li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide 6">
+
+							<img src="assets/images/_smarty/1x1.png" data-lazyload="back.jpg" alt="video" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+
+							<div class="tp-caption tp-fade fadeout fullscreenvideo"
+								data-x="0"
+								data-y="50"
+								data-speed="1000"
+								data-start="1100"
+								data-easing="Power4.easeOut"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1500"
+								data-endeasing="Power4.easeIn"
+								data-autoplay="true"
+								data-autoplayonlyfirsttime="false"
+								data-nextslideatend="true"
+								data-volume="mute" 
+								data-forceCover="1" 
+								data-aspectratio="16:9" 
+								data-forcerewind="on" style="z-index: 2;">
+
+								<div class="tp-dottedoverlay twoxtwo"></div>
+
+								<video class="" preload="none" style="widt:100%;height:100%" poster="back.jpg">
+									<source src="back.webm" type="video/webm" />
+									<source src="back.mp4" type="video/mp4" />
+								</video>
+
+							</div>
+
+							<div class="tp-caption customin ltl tp-resizeme text_white"
+								data-x="center"
+								data-y="155"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1000"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 3;">
+								<span class="fw-300">DEVELOPMENT / MARKETING / DESIGN / PHOTO</span>
+							</div>
+
+							<div class="tp-caption customin ltl tp-resizeme large_bold_white"
+								data-x="center"
+								data-y="205"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1200"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 3;">
+								WELCOME TO SMARTY
+							</div>
+
+							<div class="tp-caption customin ltl tp-resizeme small_light_white font-lato"
+								data-x="center"
+								data-y="295"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1400"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 3; width: 100%; max-width: 750px; white-space: normal; text-align:center; font-size:20px;">
+								Fabulas definitiones ei pri per recteque hendrerit scriptorem in errem scribentur mel fastidii propriae philosophia cu mea.
+							</div>
+
+							<div class="tp-caption customin ltl tp-resizeme"
+								data-x="center"
+								data-y="363"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1550"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 3;">
+								<a href="#purchase" class="btn btn-default btn-lg">
+									<span>Purchase Smarty Now</span> 
+								</a>
+							</div>
+
+						</li>
+						-->
+					</ul>
+
+					<div class="tp-bannertimer"><!-- progress bar --></div>
+				</div>
+			
+			</section>
+			<!-- /REVOLUTION SLIDER -->
+
+
+			<!-- INFO BAR -->
+			<section class="info-bar info-bar-clean">
+				<div class="container">
+
+					<div class="row">
+
+						<div class="col-sm-4">
+							<i class="glyphicon glyphicon-globe"></i>
+							<h3>Cloud POS</h3>
+							<p>Access Software Remotly</p>
+						</div>
+
+						<div class="col-sm-4">
+							<i class="glyphicon glyphicon-stats"></i>
+							<h3>Live Analytics </h3>
+							<p>Provides Real Time Updates on your Business</p>
+						</div>
+
+						<div class="col-sm-4">
+							<i class="glyphicon glyphicon-flag"></i>
+							<h3>ONLINE SUPPORT 24/7</h3>
+							<p>Free support via email</p>
+						</div>
+
+					</div>
+
+				</div>
+			</section>
+			<!-- /INFO BAR -->
+
+
+			<!-- ABOUT -->
+			<section id="about">
+				<div class="container">
+
+					<header class="text-center mb-60">
+						<h2>About Aumentar</h2>
+						<p class="lead font-lato"> </p>
+						<hr />
+					</header>
+
+
+					<div class="row">
+
+						<div class="col-sm-6">
+							<img class="img-fluid" src="laptop.png" alt="" />
+						</div>
+
+						<div class="col-sm-6">
+							<p>Aumentar is all-inclusive software which helps our customer to solve their business challenges by giving the wide range of products - Point of Sale, Order Management, Feedback, Inventory Management and Reporting tools. Aumentar software is customizable for different types of restaurant formats. Aumentar provides the cloud based infrastructure which gives real time access and helps to manage the business with ease.</p>
+
+							<hr />
+							<!--
+							<div class="row countTo-sm text-center">
+
+								<div class="col-6 col-sm-4">
+									<i class="fa fa-users fs-20"></i> &nbsp; 
+									<span class="countTo" data-speed="3000" style="color:#59BA41">1303</span>
+									<h6>HAPPY CLIENTS</h6>
+								</div>
+
+								<div class="col-6 col-sm-4">
+									<i class="fa fa-briefcase fs-20"></i> &nbsp; 
+									<span class="countTo" data-speed="3000" style="color:#774F38">56000</span>
+									<h6>FINISHED PROJECTS</h6>
+								</div>
+
+								<div class="col-6 col-sm-4">
+									<i class="fa fa-twitter fs-20"></i> &nbsp; 
+									<span class="countTo" data-speed="3000" style="color:#C02942">4897</span>
+									<h6>TWITTER FOLLOWERS</h6>
+								</div>
+
+							</div>
+							-->
+						</div>
+
+					</div>
+
+
+				</div>
+			</section>
+			<!-- /ABOUT -->
+
+		
+			<!-- WORK -->
+			<section id="features">
+				<div class="container">
+
+					<header class="text-center mb-40">
+						<h1 class="fw-300">Aumentar Features</h1>
+						<h2 class="fw-300 letter-spacing-1 fs-13"><span>WE TRULY CARE ABOUT OUR CUSTOMERS</span></h2>
+					</header>
+					
+					<div class="row mt-80">
+
+						
+
+						<div class="col-lg-4 col-md-4 col-sm-6 order-md-1">
+
+							<div class="box-icon box-icon-right">
+								<a class="box-icon-title" href="#">
+									<i class="fa fa-cloud"></i>
+									<h2>Cloud POS </h2>
+								</a>
+								<p>Helps you track the proceedings of your business from wherever you are.</p>
+							</div>
+
+							<div class="box-icon box-icon-right">
+								<a class="box-icon-title" href="#">
+									<i class="fa fa-dollar-sign"></i>
+									<h2>Split billing </h2>
+								</a>
+								<p>This gives an option to the customers to share their bills without any hassles.</p>
+							</div>
+
+							<div class="box-icon box-icon-right">
+								<a class="box-icon-title" href="#">
+									<i class="fas fa-plug"></i>
+									<h2>Compatibility</h2>
+								</a>
+								<p>We are compatible with all the devices and operating systems making it easy for the users to implement our systems with the existing hardware.</p>
+							</div>
+
+							<div class="box-icon box-icon-right">
+								<a class="box-icon-title" href="#">
+									<i class="fas fa-rocket"></i>
+									<h2>Sales Booster</h2>
+								</a>
+								<p>Tailored marketing for targeted customers.</p>
+							</div>
+
+						</div>
+						
+						<div class="col-lg-4 col-md-4 order-md-2 text-center">
+						
+							<img class="img-fluid" src="iphone-min.png" alt="" />
+
+						</div>
+
+						<div class="col-lg-4 col-md-4 col-sm-6 order-md-3">
+
+							<div class="box-icon box-icon-left">
+								<a class="box-icon-title" href="#">
+									<i class="fas fa-user"></i>
+									<h2>User Friendly </h2>
+								</a>
+								<p>The application is easy to use for anyone who has basic knowledge of using a computer, tablet or a smartphone.</p>
+							</div>
+
+							<div class="box-icon box-icon-left">
+								<a class="box-icon-title" href="#">
+									<i class="fa fa-chart-line"></i>
+									<h2>Live Analytics </h2>
+								</a>
+								<p>The users can track the business proceedings live.</p>
+							</div>
+
+							<div class="box-icon box-icon-left">
+								<a class="box-icon-title" href="#">
+									<i class="fas fa-cogs"></i>
+									<h2>API Integration</h2>
+								</a>
+								<p>The tool can be implemented to any existing inventory systems with APIs</p>
+							</div>
+
+							<div class="box-icon box-icon-left">
+								<a class="box-icon-title" href="#">
+									<i class="fas fa-headset"></i>
+									<h2>Support</h2>
+								</a>
+								<p>Our reliable support team are eager to help you on any issues 24/7. There are no more glitches or stoppers for running your business seamlessly.</p>
+							</div>
+
+						</div>
+						
+					</div>
+				
+				</div>
+			</section>
+			<!-- /WORK -->
+
+
+
+			<!-- TEAM 
+			<section id="team">
+				<div class="container">
+
+					<header class="text-center mb-60">
+						<h2>Our Team</h2>
+						<p class="lead font-lato">Lorem ipsum dolor sit amet adipiscium elit</p>
+						<hr />
+					</header>
+
+					<p class="lead">Lorem ipsum dolor sit amet. Etharums your template rerum facilis dolores nemis omnis fugats vitaes you need this.</p>
+					<p>Lorem ipsum dolor sit amet. Etharums your template rerum facilis dolores nemis omnis fugats vitaes you need this totam rem aperiam, eaque ipsa qu ab illo inventore veritatis et quasi architectos beatae vitae dicta sunt explicabo. Nemo enim sadips ipsums dolores sit.Nemo enims sadips ipsums un inventore veritatis et quasi.</p>
+
+					<div class="row">
+			-->		
+						<!-- item -->
+			<!--
+						<div class="col-md-3 col-sm-6">
+
+							<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
+								<div class="front">
+									<div class="box1 box-default">
+										<span class="box-icon-title">
+											<img class="img-fluid" src="images/people/460x700/7-min.jpg" alt="" />
+											<h2>Felica Doe</h2>
+											<small>CEO</small>
+										</span>
+									</div>
+								</div>
+
+								<div class="back">
+									<div class="box2 box-default">
+										<h4 class="m-0">Felica Doe</h4>
+										<small>CEO</small>
+
+										<hr />
+
+										<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere</p>
+
+										<hr />
+
+										<a href="#" class="social-icon social-icon-sm social-facebook">
+											<i class="fa fa-facebook"></i>
+											<i class="fa fa-facebook"></i>
+										</a>
+										<a href="#" class="social-icon social-icon-sm social-twitter">
+											<i class="fa fa-twitter"></i>
+											<i class="fa fa-twitter"></i>
+										</a>
+										<a href="#" class="social-icon social-icon-sm social-linkedin">
+											<i class="fa fa-linkedin"></i>
+											<i class="fa fa-linkedin"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						
+
+						
+						<div class="col-md-3 col-sm-6">
+
+							<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
+								<div class="front">
+									<div class="box1 box-default">
+										<span class="box-icon-title">
+											<img class="img-fluid" src="demo_files/images/people/460x700/12-min.jpg" alt="" />
+											<h2>Joana Doe</h2>
+											<small>Art Director</small>
+										</span>
+									</div>
+								</div>
+
+								<div class="back">
+									<div class="box2 box-default">
+										<h4 class="m-0">Joana Doe</h4>
+										<small>Art Director</small>
+
+										<hr />
+
+										<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere</p>
+
+										<hr />
+
+										<a href="#" class="social-icon social-icon-sm social-facebook">
+											<i class="fa fa-facebook"></i>
+											<i class="fa fa-facebook"></i>
+										</a>
+										<a href="#" class="social-icon social-icon-sm social-twitter">
+											<i class="fa fa-twitter"></i>
+											<i class="fa fa-twitter"></i>
+										</a>
+										<a href="#" class="social-icon social-icon-sm social-linkedin">
+											<i class="fa fa-linkedin"></i>
+											<i class="fa fa-linkedin"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					
+
+						
+						<div class="col-md-3 col-sm-6">
+
+							<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
+								<div class="front">
+									<div class="box1 box-default">
+										<span class="box-icon-title">
+											<img class="img-fluid" src="demo_files/images/people/460x700/10-min.jpg" alt="" />
+											<h2>Melissa Doe</h2>
+											<small>Web Developer</small>
+										</span>
+									</div>
+								</div>
+
+								<div class="back">
+									<div class="box2 box-default">
+										<h4 class="m-0">Melissa Doe</h4>
+										<small>Web Developer</small>
+
+										<hr />
+
+										<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere</p>
+
+										<hr />
+
+										<a href="#" class="social-icon social-icon-sm social-facebook">
+											<i class="fa fa-facebook"></i>
+											<i class="fa fa-facebook"></i>
+										</a>
+										<a href="#" class="social-icon social-icon-sm social-twitter">
+											<i class="fa fa-twitter"></i>
+											<i class="fa fa-twitter"></i>
+										</a>
+										<a href="#" class="social-icon social-icon-sm social-linkedin">
+											<i class="fa fa-linkedin"></i>
+											<i class="fa fa-linkedin"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						
+						<div class="col-md-3 col-sm-6">
+
+							<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
+								<div class="front">
+									<div class="box1 box-default">
+										<span class="box-icon-title">
+											<img class="img-fluid" src="demo_files/images/people/460x700/8-min.jpg" alt="" />
+											<h2>Jessica Doe</h2>
+											<small>Manager</small>
+										</span>
+									</div>
+								</div>
+
+								<div class="back">
+									<div class="box2 box-default">
+										<h4 class="m-0">Jessica Doe</h4>
+										<small>Manager</small>
+
+										<hr />
+
+										<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere</p>
+
+										<hr />
+
+										<a href="#" class="social-icon social-icon-sm social-facebook">
+											<i class="fa fa-facebook"></i>
+											<i class="fa fa-facebook"></i>
+										</a>
+										<a href="#" class="social-icon social-icon-sm social-twitter">
+											<i class="fa fa-twitter"></i>
+											<i class="fa fa-twitter"></i>
+										</a>
+										<a href="#" class="social-icon social-icon-sm social-linkedin">
+											<i class="fa fa-linkedin"></i>
+											<i class="fa fa-linkedin"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						
+
+					</div>
+
+				</div>
+			</section>
+		 /TEAM -->
+
+
+
+			<!-- CALLOUT 
+			<div class="callout callout-theme-color">
+				<div class="container">
+
+					<div class="row">
+
+						<div class="col-md-9">
+							<h3>Want to be part of our team?</h3>
+							<p>If so, click to join now, and be part of our dynamic team!</p>
+						</div>
+
+						<div class="col-md-3">
+							<a href="page-careers.html" class="btn btn-primary btn-lg">Join Our Team</a>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		 /CALLOUT -->
+			
+
+
+			<!-- SERVICES -->
+			<section id="products">
+				<div class="container">
+
+					<header class="text-center mb-60">
+						<h2>Our Products</h2>
+						<p class="lead font-lato"></p>
+						
+					</header>
+
+					<p class="lead"></p>
+					<div class="divider divider-center divider-color"><!-- divider -->
+						<i class="fa fa-chevron-down"></i>
+					</div>
+
+					<!-- FEATURED BOXES 3 -->
+					<div class="row">
+
+						<div class="col-md-4 col-6">
+							<div class="text-center">
+								<i class="ico-color ico-lg ico-rounded ico-hover fas fa-money-check-alt"></i>
+								<h4>Point Of Sale</h4>
+								<p class="font-lato fs-20">Integrate all tools you need in Business</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-6">
+							<div class="text-center">
+								<i class="ico-color ico-lg ico-rounded ico-hover fas fa-clipboard-list"></i>
+								<h4>Order Management</h4>
+								<p class="font-lato fs-20">Keep track of order and automate the process in real time.</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-6">
+							<div class="text-center">
+								<i class="ico-color ico-lg ico-rounded ico-hover fas fa-solar-panel"></i>
+								<h4>Reservation</h4>
+								<p class="font-lato fs-20">Book your table anywhere at any point of time.</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-6">
+							<div class="text-center">
+								<i class="ico-color ico-lg ico-rounded ico-hover fas fa-thumbs-up"></i>
+								<h4>Feedback</h4>
+								<p class="font-lato fs-20">Live feedback from your customers.</p>
+							</div>
+						</div>
+
+						<div class="col-md-4 col-6">
+							<div class="text-center">
+								<i class="ico-color ico-lg ico-rounded ico-hover fas fa-concierge-bell"></i>
+								<h4>KOT</h4>
+								<p class="font-lato fs-20">Integrate your chef and waiters.</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-6">
+							<div class="text-center">
+								<i class="ico-color ico-lg ico-rounded ico-hover fas fa-utensils"></i>
+								<h4>Food Management</h4>
+								<p class="font-lato fs-20">Manage daily waste.</p>
+							</div>
+						</div>
+
+					</div>
+					<!-- /FEATURED BOXES 3 -->
+
+				</div>
+			</section>
+			<!-- /SERVICES -->
+
+
+			<!-- Services-->
+			<section class="alternate" id="services">
+				<div class="container">
+					<header class="text-center mb-40">
+						<h1 class="fw-300">Our Services</h1>
+						<h2 class="fw-300 letter-spacing-1 fs-13"><span></span></h2>
+					</header>
+					<div class="row">
+
+						<div class="col-md-4">
+
+							<div class="box-icon box-icon-side box-icon-color box-icon-round">
+								<i class="fa fa-shopping-cart"></i>
+								<a class="box-icon-title" href="#">
+									<h2>Retail</h2>
+								</a>
+								<p>Retailers can use our ERP & CRM systems and have it customized to suit their business process.</p>
+								
+							</div>
+
+						</div>
+
+						<div class="col-md-4">
+
+							<div class="box-icon box-icon-side box-icon-color box-icon-round">
+								<i class="fas fa-truck-loading"></i>
+								<a class="box-icon-title" href="#">
+									<h2>Wholesale</h2>
+								</a>
+								<p>Wholesalers can use our system from the time of arrival of goods to their inventory to the delivery confirmation phase.</p>
+								
+							</div>
+
+						</div>
+
+						<div class="col-md-4">
+
+							<div class="box-icon box-icon-side box-icon-color box-icon-round">
+								<i class="fas fa-archway"></i>
+								<a class="box-icon-title" href="#">
+									<h2>Hospitality</h2>
+								</a>
+								<p>The whole process of hospitality industry can be run remotely using our system from any corner of the world.</p>
+								
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+			</section>
+			<!-- / Services-->
+			<!-- PRICING
+			<section id="pricing">
+				<div class="container">
+
+					<header class="text-center mb-60">
+						<h2>Our Pricing</h2>
+						<p class="lead font-lato">Lorem ipsum dolor sit amet adipiscium elit</p>
+						<hr />
+					</header>
+
+					<div class="row">
+
+						<div class="col-md-3 col-sm-3">
+							
+							<div class="price-clean">                                
+								<h4>
+									<sup>$</sup>15<em>/month</em>
+								</h4>
+								<h5> Starter </h5>
+								<hr />
+								<p>For individuals looking for something simple to get started.</p>
+								<hr />
+								<a href="#" class="btn btn-3d btn-teal">Learn More</a>
+							</div>
+						
+						</div>
+
+						<div class="col-md-3 col-sm-3">
+							
+							<div class="price-clean">                                
+								<h4>
+									<sup>$</sup>25<em>/month</em>
+								</h4>
+								<h5> BUSINESS </h5>
+								<hr />
+								<p>For individuals looking for something simple to get started.</p>
+								<hr />
+								<a href="#" class="btn btn-3d btn-teal">Learn More</a>
+							</div>
+						
+						</div>
+
+						<div class="col-md-3 col-sm-3">
+							
+							<div class="price-clean price-clean-popular"> 
+								<div class="ribbon"> 
+									<div class="ribbon-inner">POPULAR</div>
+								</div>
+								
+								<h4>
+									<sup>$</sup>35<em>/month</em>
+								</h4>
+								<h5> DEVELOPER </h5>
+								<hr />
+								<p>For individuals looking for something simple to get started.</p>
+								<hr />
+								<a href="#" class="btn btn-3d btn-primary">Learn More</a>
+							</div>
+						
+						</div>
+
+						<div class="col-md-3 col-sm-3">
+							
+							<div class="price-clean">                                
+								<h4>
+									<sup>$</sup>50<em>/month</em>
+								</h4>
+								<h5> VIP </h5>
+								<hr />
+								<p>For individuals looking for something simple to get started.</p>
+								<hr />
+								<a href="#" class="btn btn-3d btn-teal">Learn More</a>
+							</div>
+						
+						</div>
+
+					</div>
+
+				</div>
+			</section>
+			/PRICING -->
+
+
+
+			
+			<!-- PARALLAX
+			<section class="parallax parallax-2" style="background-image: url(wood-3157395_1920.jpg);">
+				<div class="overlay dark-8"></div>
+
+				<div class="container">
+
+					<div class="text-center">
+						<h3 class="m-0">Smarty Inside</h3>
+						<p class="font-lato fw-300 lead mt-0">We can't solve problems by using the same kind of thinking we used when we created them.</p>
+					</div>
+
+					<ul class="mt-80 social-icons list-unstyled list-inline">
+						<li>
+							<a target="_blank" href="#">
+								<i class="fa fa-facebook"></i>
+								<h4>Facebook</h4>
+								<span>Be Our Friend</span>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="#">
+								<i class="fa fa-twitter"></i>
+								<h4>Twitter</h4>
+								<span>Follow Us</span>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="#">
+								<i class="fa fa-youtube"></i>
+								<h4>Youtube</h4>
+								<span>Our Videos</span>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="#">
+								<i class="fa fa-instagram"></i>
+								<h4>Instagram</h4>
+								<span>See Our Images</span>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="#">
+								<i class="fa fa-linkedin"></i>
+								<h4>Linkedin</h4>
+								<span>Check Our Identity</span>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="#">
+								<i class="fa fa-pinterest"></i>
+								<h4>Pinterest</h4>
+								<span>Visual Discovery</span>
+							</a>
+						</li>
+					</ul>
+
+				</div>
+
+			</section>
+			 /PARALLAX -->
+
+
+			<!-- TESTIMONIALS
+		
+			<section id="testimonials"class="parallax parallax-3 alternate" style="background-image:url('moss-983908_1920.jpg')">
+				<div class="overlay dark-6"><!-- dark overlay [1 to 9 opacity]</div>
+			 -->
+			 <!--
+				<div class="container">
+
+					<div class="owl-carousel text-center owl-testimonial m-0" data-plugin-options='{"singleItem": true, "autoPlay": 3500, "navigation": false, "pagination": true, "transitionStyle":"fade"}'>
+						<div class="testimonial">
+							<figure>
+								<img class="rounded" src="11-min.jpg" alt="" />
+							</figure>
+							<div class="testimonial-content p-0">
+								<p class="lead">Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero.</p>
+								<cite>
+									Joana Doe
+									<span>Company Ltd.</span>
+								</cite>
+							</div>
+						</div>
+						<div class="testimonial">
+							<figure>
+								<img class="rounded" src="12-min.jpg" alt="" />
+							</figure>
+							<div class="testimonial-content p-0">
+								<p class="lead">Quod necessitatibus quis expedita harum provident eos obcaecati id culpa.</p>
+								<cite>
+									Melissa Doe
+									<span>Company Ltd.</span>
+								</cite>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+
+			 /TESTIMONIALS -->
+	
+			
+	
+			<footer id="footer">
+			<div class="container">
+
+				<div class="row mt-60 mb-40 fs-13">
+
+					<!-- col #1 -->
+					<div class="col-md-3 col-sm-3">
+
+						<!-- Footer Logo -->
+						<img class="footer-logo" src="assets/images/icon/logo_light.png" alt="" />
+
+						<!-- Small Description -->
+						<p> </p>
+
+						<!-- Contact Address -->
+						<address>
+							<ul class="list-unstyled">
+								<li class="footer-sprite address">
+									J.P.Nagar 5th phase<br>
+									Bengaluru,Karnataka<br>
+								</li>
+								<li class="footer-sprite phone">
+									Contact No: +91-9738409204
+								</li>
+								<li class="footer-sprite email">
+									<a href="mailto:support@aumentar.in">support@aumentar.in</a>
+								</li>
+							</ul>
+						</address>
+						<!-- /Contact Address -->
+
+					</div>
+					<!-- /col #1 -->
+
+					<!-- col #2 -->
+					<div class="col-md-5 col-sm-5">
+
+						<!-- Newsletter Form -->
+							<h4 class="letter-spacing-1">KEEP IN TOUCH</h4>
+							<p>Subscribe to Our Newsletter to get Important News &amp; Offers</p>
+
+							<form class="validate" action="php/newsletter.php" method="post" data-success="Subscribed! Thank you!" data-toastr-position="bottom-right" novalidate="novalidate">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+									<input type="email" id="email" name="email" class="form-control required" placeholder="Enter your Email">
+									<span class="input-group-btn">
+										<button class="btn btn-success" type="submit">Subscribe</button>
+									</span>
+								</div>
+							<input type="hidden" name="is_ajax" value="true"></form>
+							<!-- /Newsletter Form -->
+
+						<hr />
+
+						<!-- Social Icons -->
+						<div class="clearfix">
+
+							<a href="#" class="social-icon social-icon-sm social-icon-border social-facebook float-left" data-toggle="tooltip" data-placement="top" title="Facebook">
+								<i class="icon-facebook"></i>
+								<i class="icon-facebook"></i>
+							</a>
+
+							<a href="#" class="social-icon social-icon-sm social-icon-border social-instagram float-left" data-toggle="tooltip" data-placement="top" title="Instagram">
+								<i class="icon-instagram"></i>
+								<i class="icon-instagram"></i>
+							</a>
+
+							<a href="#" class="social-icon social-icon-sm social-icon-border social-gplus float-left" data-toggle="tooltip" data-placement="top" title="Google plus">
+								<i class="icon-gplus"></i>
+								<i class="icon-gplus"></i>
+							</a>
+
+							<a href="#" class="social-icon social-icon-sm social-icon-border social-linkedin float-left" data-toggle="tooltip" data-placement="top" title="Linkedin">
+								<i class="icon-linkedin"></i>
+								<i class="icon-linkedin"></i>
+							</a>
+						
+						</div>
+						<!-- /Social Icons -->
+
+					</div>
+					<!-- /col #2 -->
+
+					<!-- col #3 -->
+					<div class="col-md-4 col-sm-4">
+
+						<h4 class="letter-spacing-1">CONTACT US</h4>
+
+						<!-- CONTACT MESSAGES -->
+						<p id="alert_success" class="alert alert-success alert-mini">Message sent! Thank You!</p>
+						<p id="alert_failed" class="alert alert-danger alert-mini">Message not sent!</p>
+						<p id="alert_mandatory" class="alert alert-danger alert-mini">Please, complete all mandatory fields</p>
+
+						<!-- CONTACT FORM -->
+						<form class="validate" method="post" action="php/contact.php">
+							
+							<input type="text" value="" placeholder="Name*" maxlength="100" class="form-control required" name="contact[name]" />
+							<input type="email" value="" placeholder="Email*" data-msg-email="Please enter a valid email address." class="form-control required" name="contact[email]" />
+							<textarea maxlength="5000" placeholder="Message*" rows="3" class="form-control required" name="contact[message]"></textarea>
+							<input type="submit" value="SUBMIT MESSAGE" class="btn btn-success" />
+
+						</form>
+						<!-- /CONTACT FORM -->
+
+					</div>
+					<!-- /col #3 -->
+
+				</div>
+
+			</div>
+
+			<div class="copyright">
+				<div class="container">
+				<!--
+					<ul class="float-right m-0 list-inline mobile-block">
+						<li><a href="#">Terms &amp; Conditions</a></li>
+						<li>&bull;</li>
+						<li><a href="#">Privacy</a></li>
+					</ul>
+				-->
+					&copy; All Rights Reserved, Company LTD
+				</div>
+			</div>
+
+		</footer>
+		</div>
+		<!-- /wrapper -->
+
+
+
+		<!-- SCROLL TO TOP -->
+		<a href="#" id="toTop"></a>
+
+
+
+
+		<!-- JAVASCRIPT FILES -->
+		<script>var plugin_path = 'assets/plugins/';</script>
+		<script src="assets/plugins/jquery/jquery-3.2.1.min.js"></script>
+
+		<script src="assets/js/scripts.js"></script>
+		
+
+		<!-- REVOLUTION SLIDER -->
+		<script src="assets/plugins/slider.revolution/js/jquery.themepunch.tools.min.js"></script>
+		<script src="assets/plugins/slider.revolution/js/jquery.themepunch.revolution.min.js"></script>
+		<script src="assets/js/view/demo.revolution_slider.js"></script>
+
+	</body>
+</html>
