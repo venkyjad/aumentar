@@ -6,7 +6,7 @@ module.exports = {
   deploy: {
     production: {
       user: 'ubuntu',
-      host: 'ec2-13-232-46-166.ap-south-1.compute.amazonaws.com',
+      host: 'ec2-13-234-37-35.ap-south-1.compute.amazonaws.com',
       key: '~/Documents/node_aws_server/node_server.pem',
       ref: 'origin/master',
       repo: 'git@github.com:venkyjad/aumentar.git',
